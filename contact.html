@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyResume 999</title>
+    <link rel="stylesheet" href="style.css">
+    <title>MyResume-contect</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400&display=swap" rel="stylesheet">
@@ -20,23 +21,28 @@
 <body>
     <hr>
     <nav>
-        <a href="index.html">Home</a> <span>|</span>
-        <a href="../education.html">Education</a> <span>|</span>
-        <a href="../work.html">Work Experience</a> <span>|</span>
-        <a href="#">Contact Me</a> <span>|</span>
+        <div class="menubar">
+
+            <a href="index.html">Home</a> <span>|</span>
+            <a href="../education.html">Education</a> <span>|</span>
+            <a href="../work.html">Work Experience</a> <span>|</span>
+            <a href="#">Contact Me</a> <span>|</span>
+        </div>
     </nav>
     <hr>
-    <div>
+    <div class="title-box">
         <h1>Contact Me</h1>
 
     </div>
-    <fieldset style="width: 380px;border-radius: 10px;" >
+    <fieldset class="inputinfo" >
         <form action="/action_page.php" style="margin-left: 20px;">
-            <p>Edit your info</p>
+        
+            <h3 style="height: 40px; margin-top: 10px;">Edit your info</h3>
+        
             <label for="fname">Your Name:</label><br>
-            <input type="text" id="Fname" name="name" style="width: 300px;"><br><br>
+            <input type="text" id="Fname" name="name" style="width: 100%;><br><br>
             <label for="lname">Your Email:</label><br>
-            <input type="text" id="Femail" name="email" style="width: 300px;"><br><br>
+            <input type="text" id="Femail" name="email" style="width: 100%;><br><br>
             <label for="cars">Gender</label><br>
             <select id="cars" name="cars" style="width: 100%;">
                 <option selected disabled hidden value="volvo">select..</option>

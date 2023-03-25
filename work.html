@@ -5,15 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyResume</title>
+    <link rel="stylesheet" href="style.css">
+    <title>MyResume-Work</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400&display=swap" rel="stylesheet">
-    <style>
-        html {
-            font-family: 'Prompt', sans-serif;
-        }
-    </style>
     <style>
         table,
         th,
@@ -31,8 +27,10 @@
         th {
             padding: 5px;
             text-align: left;
-            background-color: rgb(176, 224, 224);
-            font-weight: lighter;
+            /* background-color: rgb(176, 224, 224); */
+            background-color: #ffffff60;
+
+            font-weight: bold;
         }
     </style>
 </head>
@@ -40,18 +38,22 @@
 <body>
     <hr>
     <nav>
-        <a href="index.html">Home</a> <span>|</span>
-        <a href="../education.html">Education</a> <span>|</span>
-        <a href="#">Work Experience</a> <span>|</span>
-        <a href="../contact.html">Contact Me</a> <span>|</span>
+        <div class="menubar">
+
+            <a href="index.html">Home</a> <span>|</span>
+            <a href="../education.html">Education</a> <span>|</span>
+            <a href="#">Work Experience</a> <span>|</span>
+            <a href="../contact.html">Contact Me</a> <span>|</span>
+        </div>
     </nav>
     <hr>
-    <div>
+    <div class="title-box">
         <h1>Work Experience</h1>
-        <img src="https://www.svgrepo.com/show/287725/working-work.svg" alt="work" width="200">
     </div>
     <br>
-    <div>
+    <div class="info">
+        <img src="https://www.svgrepo.com/show/287725/working-work.svg" alt="work" width="200">
+
         <table style="width:100%">
             <tr>
                 <th>Year</th>
@@ -73,7 +75,6 @@
                 <td>Junior Backend</td>
                 <td>ABC</td>
             </tr>
-
         </table>
     </div>
 </body>
