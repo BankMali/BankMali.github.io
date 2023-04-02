@@ -29,7 +29,8 @@ body {
     background-position: 140% 110px;
     background-blend-mode: multiply;
     background-size: 100vh;
-    background-color: rgb(194, 242, 251);
+    /* background-color: rgb(194, 242, 251); */
+    background-color: rgb(241, 241, 241);
 
 
 }
